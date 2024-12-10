@@ -17,8 +17,9 @@ google_colors_desaturated <- colorspace::desaturate(google_colors, 0.2)
 #' https://trends.google.com/trends/yis/2023/DE/ and place them in /data
 
 # Read downloaded files
-filenames <- list.files("data", pattern = "multiTimeline.*\\.csv")
-dfs <- map(file.path("data", filenames), function(x) read_csv(x, skip = 2))
+folder <- file.path("data", "de")
+filenames <- list.files(folder, pattern = "multiTimeline.*\\.csv")
+dfs <- map(file.path(folder, filenames), function(x) read_csv(x, skip = 2))
 
 # Replaces the "<1" value with a numeric value and converts x to a numeric variable
 replace_lessthan1 <- function(x, num_value = 0.5) {
