@@ -14,7 +14,7 @@ google_colors_desaturated <- colorspace::desaturate(google_colors, 0.2)
 ## DATA PREP ===================================================================
 
 #' Manual task: Download trends data one by one from 
-#' https://trends.google.com/trends/yis/2023/DE/ and place them in /data
+#' https://trends.withgoogle.com/year-in-search/2024/de/ and place them in /data
 
 # Read downloaded files
 folder <- file.path("data", "de")

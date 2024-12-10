@@ -6,6 +6,6 @@ The chart shows the weekly relative search interest of the top search terms acro
 
 <img src="plots/gtrends_de_2024_light.png" height="900px" alt="A chart showing the Google Trends 2024 for Germany as an area chart for each search term. The peaks illustrate when a term was most searched. The terms are sorted by the earliest peak date. Selection of terms in chronological order: Franz Beckenbauer, farmer protests, rail strikes, Handball European Championship, Navalny, floods, European Championship, European elections, Taylor Swift, US election, Dubai chocolate.">
 
-Manually download the weekly data for Google Trends for specific keywords from https://trends.google.com/trends/yis/2023/DE/. You can switch to other countries on the page. You need to download one file per search term.
+Manually download the weekly data for Google Trends for specific keywords from https://trends.withgoogle.com/year-in-search/2024/de/. You can switch to other countries on the page. You need to download one file per search term.
 
 The code offers a light and a dark themed chart.
